@@ -1,0 +1,90 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+*,*:before,*:after{
+    -mox-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:border-box;
+}
+
+
+
+body{
+	background-color: e8e8e8 }
+
+.titlet {
+    font-size: 15px;
+    text-align:  center; 
+}
+
+.articleone {
+    margin: 10 0;
+    text-align:  center;
+}
+
+.backcos {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    min-width: 100px;
+    border: 5px solid white;
+}
+
+.manearticle {
+    width: 450px;
+    border: 5px solid rgb(255, 255, 255);
+    /*display: block;*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 0 10px rgb(242, 231, 231);
+
+}
+
+.list {
+    display: block;
+    margin: 0 0 50px 0;
+    text-align:  center;
+    border: 1px solid #000;
+}
+
+.list li{
+    font-size: 18px;
+    margin: 0 0 25px 0px;
+    background: url('../background_6/checkicon.png') 33% no-repeat;
+    padding: 0 0 0 0px ;
+}
+.list li {
+    }
+/* .list li {
+    display: block;
+    font-size: 15px;
+
+    margin: 0 0 25px 0;
+    padding: 0 0 0 20px;
+} */
+
+
+
+.but {
+    text-align: center;
+    background-color:aqua;  
+    border-radius: 2px solid aqua;
+    background: url('../background_6/Shape\ 2.png') right 5 px no-repeat;
+    padding: 0 0 0 0px;
+}
